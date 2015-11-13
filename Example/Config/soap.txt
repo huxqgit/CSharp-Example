@@ -4,7 +4,7 @@
 		<m:LST_SBRResponse xmlns:m=\"http://www.chinamobile.com/IMS/VoLTEAS/\">
 			<m:Result>
 				<m:ResultCode>0</m:ResultCode>
-				<m:ResultDesc>操作成功</ResultDesc>
+				<m:ResultDesc>操作成功</m:ResultDesc>
 				<m:ResultData>
 					<m:Table1>
 						<m:Item>

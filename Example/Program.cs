@@ -76,35 +76,27 @@ namespace Example
             //    Console.Write("{0},", b);
             //}
 
-            string soapFile = @"Config\soap.txt";
-            string soapText = File.ReadAllText(soapFile);
+            string str = "8613526415213";
+            string rr = "";
+            char[] arr = str.ToCharArray();
+            foreach (char cc in arr)
+            {
+                rr += string.Format(@"{0}.", cc.ToString());
+            }
+            rr = rr.TrimEnd('.');
 
-            string ret = GetStr(soapText, "NOAT");
+            str = ReverseStr(rr);
             
             Console.ReadKey();
         }
 
-        private static string GetStr(string ResultSoap, string id)
+        private static string ReverseStr(string str)
         {
-            string pattern = string.Format(@"<m:{0}>(.*)</m:{0}>", id);
-            Regex reg = new Regex(pattern);
-            string Result = string.Empty;
-            if (string.IsNullOrEmpty(ResultSoap))
-                return string.Empty;
-            if (reg.IsMatch(ResultSoap))
-            {
-                for (int i = 0; i < reg.Matches(ResultSoap).Count; i++)
-                {
-                    Result += reg.Matches(ResultSoap)[i].Groups[1].Value + "\r\n";
-                    if (id == "SIFCID" || id == "IMPU")
-                        continue;
-                    else
-                        break;
-                }
-                Result = Result.TrimEnd('\n').TrimEnd('\r');
-            }
-            return Result;
+            char[] arr = str.ToCharArray();           
+            Array.Reverse(arr);
+            return new string(arr);
         }
+
 
 		private static void Test(int[] a)
 		{
