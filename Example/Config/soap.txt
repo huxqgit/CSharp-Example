@@ -1,0 +1,44 @@
+﻿<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">
+	<SOAP-ENV:Body>
+		<m:LST_SBRResponse xmlns:m=\"http://www.chinamobile.com/IMS/VoLTEAS/\">
+			<m:Result>
+				<m:ResultCode>0</m:ResultCode>
+				<m:ResultDesc>操作成功</ResultDesc>
+				<m:ResultData>
+					<m:Table1>
+						<m:Item>
+						<m:IMPU>tel:+8615180340404</m:IMPU>
+						<m:USERTYPE>0</m:USERTYPE>
+						<m:CSC>300</m:CSC>
+						<m:NSCFU>1</m:NSCFU>
+						<m:NSCFB>1</m:NSCFB>
+						<m:NSCFNR>1</m:NSCFNR>
+						<m:NSCFNRC>1</m:NSCFNRC>
+						<m:NSCFD>1</m:NSCFD>
+						<m:NSCW>1</m:NSCW>
+						<m:NSOIP>1</m:NSOIP>
+						<m:NSGOIR>1</m:NSGOIR>
+						<m:NSTIP>1</m:NSTIP>
+						<m:NSTIR>1</m:NSTIR>
+						<m:NSMPTY>1</m:NSMPTY>
+						<m:NSBAOC>1</m:NSBAOC>
+						<m:NSBOIC>1</m:NSBOIC>
+						<m:NSBOICEXHC>1</m:NSBOICEXHC>
+						<m:NSBAIC>1</m:NSBAIC>
+						<m:NSBICROM>1</m:NSBICROM>
+						<m:NSHOLD>1</m:NSHOLD>
+						<m:ODBBICTYPE>0</m:ODBBICTYPE>
+						<m:ODBBOCTYPE>0</m:ODBBOCTYPE>
+						<m:ODBSS>0</m:ODBSS>
+						<m:ODBINFORM>0</m:ODBINFORM>
+						<m:ODBENTAIN>0</m:ODBENTAIN>
+						<m:NOAT>20</m:NOAT>
+						<m:CHT>0</m:CHT>
+						</m:Item>
+					</m:Table1>
+				</m:ResultData>
+			</m:Result>
+		</m:LST_SBRResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Set>
+    <!--
+    Url: 要删除日志的目录
+    SaveDays: 日志保留天数 单位：天（以文件最后一次被写入时间计算）
+    Interval: 程序执行周期 单位：天
+    -->
+    <Log Name="全方位日志" Url="E:\vmware_linux_file\test\Working\TianJin\log" SaveDays="10" Interval="1" BeginTime="2015-06-19 09:20:40" EndTime="2015-06-18 10:21:59" />
+    <Log Name="全方位日志1" Url="E:\vmware_linux_file\test\Working\TianJin\log1" SaveDays="5" Interval="1" BeginTime="2015-06-21 09:20:40" EndTime="2015-06-18 10:21:59" />    
+  </Set>
+</Settings>
